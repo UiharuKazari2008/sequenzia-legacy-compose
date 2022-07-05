@@ -1,0 +1,15 @@
+# Copy this to "database.yml" and adjust the fields accordingly.
+# Only works with mysql adapter.
+login: &login
+  adapter: mysql
+  host: sql.backend.seq
+  username: moe
+  password: imouto
+
+development:
+  <<: *login
+  database: sequenzia_dev
+
+production:
+  <<: *login
+  database: sequenzia
