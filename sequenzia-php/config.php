@@ -11,7 +11,7 @@ namespace MyImouto;
 class LocalConfig extends DefaultConfig
 {
     # The name of this booru.
-    public $app_name    = 'Sequenzia';
+    public $app_name    = 'Sequenzia LTS';
 
     # Host name. Must not include scheme (http(s)://) nor trailing slash.
     public $server_host = '127.0.0.1:4000';
